@@ -1,9 +1,5 @@
-import { Button } from "./views/components/ui/button";
+import { Dashboard } from "./views/pages/dashboard/page";
 
 export function App() {
-  return (
-    <>
-      <Button>Hello</Button>
-    </>
-  );
+  return <Dashboard />;
 }
