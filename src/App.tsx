@@ -1,6 +1,5 @@
-import { Acampamento } from "./views/pages/acampamento/page";
-import { Dashboard } from "./views/pages/dashboard/page";
+import { Router } from './router';
 
 export function App() {
-  return <Acampamento />;
+  return <Router />;
 }
