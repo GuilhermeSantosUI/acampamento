@@ -1,4 +1,4 @@
-export type Participant = {
+export type ParticipantProps = {
   id?: number;
   eventId: number;
   name: string;
