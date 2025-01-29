@@ -1,52 +1,94 @@
 import { localStorageKeys } from '@/app/config';
+import { api } from '@/app/services';
 import { authService } from '@/app/services/auth';
-import { createContext, useCallback, useContext, useState } from 'react';
+import { jwtDecode } from 'jwt-decode';
+import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
 
-type AuthState = {
-  token: string;
-};
+interface User {
+  cpf: string;
+  email: string;
+  name: string;
+  phoneNumber: string;
+  imageUrl: string;
+}
 
-type AuthContextValue = {
-  signedIn: boolean;
-  signIn(login: string, password: string): Promise<void>;
-  signOut(): void;
-};
+interface AuthRequest {
+  login: string;
+  password: string;
+}
 
-export const AuthContext = createContext({} as AuthContextValue);
+interface AuthContextProps {
+  signIn(params: AuthRequest): Promise<void>;
+  signOut: () => void;
+  userLogged: boolean;
+  updateUser: (user: Partial<User>) => void;
+  updateAvatarUser: (avatar: string) => void;
+  isAuth: boolean;
+}
+
+const AuthContext = createContext<AuthContextProps | undefined>(undefined);
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
-  const [authState, setAuthState] = useState<AuthState | null>(() => {
+  const [isAuth, setIsAuth] = useState<boolean>(false);
+  const [data, setData] = useState<{ token: string }>(() => {
     const token = localStorage.getItem(localStorageKeys.ACCESS_TOKEN);
+
     if (token) {
+      api.defaults.headers.Authorization = `Bearer ${token}`;
+      setIsAuth(true);
       return { token };
     }
-    return null;
+
+    return {} as { token: string };
   });
 
-  const signIn = useCallback(async (login: string, password: string) => {
-    try {
-      const { token } = await authService.auth({ login, password });
+  const signIn = useCallback(async (params: AuthRequest) => {
+    const { token } = await authService.auth(params);
 
-      localStorage.setItem(localStorageKeys.ACCESS_TOKEN, token);
+    localStorage.setItem(localStorageKeys.ACCESS_TOKEN, token);
+    api.defaults.headers.Authorization = `Bearer ${token}`;
 
-      setAuthState({ token });
-    } catch (error) {
-      console.error('Erro ao fazer login: ' + error);
-      throw new Error('Login failed');
-    }
+    setIsAuth(true);
+    setData({ token });
   }, []);
 
   const signOut = useCallback(() => {
     localStorage.removeItem(localStorageKeys.ACCESS_TOKEN);
-    setAuthState(null);
+
+    setData({} as { token: string });
+    setIsAuth(false);
+
+    api.defaults.headers.Authorization = '';
+    api.defaults.headers['Cache-Control'] = 'no-cache';
   }, []);
+
+  const updateUser = useCallback((user: Partial<User>) => {
+    // Implement user update logic here
+  }, []);
+
+  const updateAvatarUser = useCallback((avatar: string) => {
+    // Implement avatar update logic here
+  }, []);
+
+  const userLogged = useMemo(() => !!data.token, [data.token]);
+
+  useEffect(() => {
+    const token = localStorage.getItem(localStorageKeys.ACCESS_TOKEN);
+
+    if (token && checkTokenExpiration(token)) {
+      signOut();
+    }
+  }, [signOut]);
 
   return (
     <AuthContext.Provider
       value={{
-        signedIn: !!authState,
+        isAuth,
         signIn,
         signOut,
+        userLogged,
+        updateUser,
+        updateAvatarUser,
       }}>
       {children}
     </AuthContext.Provider>
@@ -61,4 +103,17 @@ export function useAuth() {
   }
 
   return context;
+}
+
+function checkTokenExpiration(token: string) {
+  if (!token) return true;
+
+  try {
+    const { exp } = jwtDecode(token) as { exp: number };
+    const currentTime = Math.floor(Date.now() / 1000);
+    return exp < currentTime;
+  } catch (error) {
+    console.error('Token inválido:', error);
+    return true;
+  }
 }
