@@ -1,18 +1,17 @@
+import { useAuth } from '@/app/context';
 import * as Views from '@/views';
 import { Navigate, Outlet, Route, Routes } from 'react-router-dom';
-import {AuthContext} from "../app/context";
-import {useContext} from "react";
 
 export function Router() {
   return (
-      <Routes>
-          <Route path="/" element={<Views.Login />} />
+    <Routes>
+      <Route path="/" element={<Views.Login />} />
 
-          <Route element={<AuthGuard isPrivate={true} />}>
-              <Route path="/dashboard" element={<Views.Dashboard />} />
-              <Route path="/acampamento" element={<Views.Acampamento />} />
-          </Route>
-      </Routes>
+      <Route element={<AuthGuard isPrivate />}>
+        <Route path="/dashboard" element={<Views.Dashboard />} />
+        <Route path="/acampamento" element={<Views.Acampamento />} />
+      </Route>
+    </Routes>
   );
 }
 
@@ -20,15 +19,16 @@ type AuthGuardProps = {
   isPrivate?: boolean;
 };
 
-
 export function AuthGuard({ isPrivate }: AuthGuardProps) {
-    const { signedIn } = useContext(AuthContext);
+  const { signedIn } = useAuth();
 
-    if (!signedIn && isPrivate) {
-        return <Navigate to="/" />;
-    }
-    if (signedIn && !isPrivate) {
-        return <Navigate to="/dashboard" replace />;
-    }
-    return <Outlet />;
+  if (!signedIn && isPrivate) {
+    return <Navigate to="/" />;
+  }
+
+  if (signedIn && !isPrivate) {
+    return <Navigate to="/dashboard" replace />;
+  }
+
+  return <Outlet />;
 }
