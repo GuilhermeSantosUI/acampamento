@@ -38,7 +38,6 @@ function Content() {
                       href="/imovel/rua-conda-530e-001399">
                       <img
                         alt="Foto do imóvel"
-                        fetchPriority="high"
                         loading="eager"
                         width={522}
                         height={392}
@@ -241,7 +240,6 @@ function Content() {
                       href="/imovel/rua-achiles-tomazeli-583e-001045">
                       <img
                         alt="Foto do imóvel"
-                        fetchPriority="high"
                         loading="eager"
                         width={522}
                         height={392}
@@ -447,7 +445,6 @@ function Content() {
                       href="/imovel/rua-guapore-615d-001159">
                       <img
                         alt="Foto do imóvel"
-                        fetchPriority="high"
                         loading="eager"
                         width={522}
                         height={392}

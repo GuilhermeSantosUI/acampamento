@@ -4,8 +4,10 @@ import { App } from './App.tsx';
 
 import { QueryClientProvider } from '@tanstack/react-query';
 import { BrowserRouter } from 'react-router-dom';
-import { queryClient } from './app/services/index.ts';
-import './styles/index.css';
+
+import { queryClient } from '@/app/services';
+
+import '@/styles/index.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

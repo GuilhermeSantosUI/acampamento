@@ -22,8 +22,7 @@ export function ImageGrid() {
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
-                fill="none"
-              >
+                fill="none">
                 <path
                   stroke="currentColor"
                   strokeLinecap="round"
@@ -42,8 +41,7 @@ export function ImageGrid() {
                 height={18}
                 viewBox="0 0 20 18"
                 aria-hidden="true"
-                className="transition-colors"
-              >
+                className="transition-colors">
                 <path
                   stroke="currentColor"
                   strokeLinecap="round"
@@ -75,8 +73,7 @@ export function ImageGrid() {
                     strokeWidth={2}
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="lucide lucide-ruler size-5 lg:size-6"
-                  >
+                    className="lucide lucide-ruler size-5 lg:size-6">
                     <path d="M21.3 15.3a2.4 2.4 0 0 1 0 3.4l-2.6 2.6a2.4 2.4 0 0 1-3.4 0L2.7 8.7a2.41 2.41 0 0 1 0-3.4l2.6-2.6a2.41 2.41 0 0 1 3.4 0Z" />
                     <path d="m14.5 12.5 2-2" />
                     <path d="m11.5 9.5 2-2" />
@@ -98,8 +95,7 @@ export function ImageGrid() {
                     strokeWidth={2}
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="lucide lucide-sofa size-5 lg:size-6"
-                  >
+                    className="lucide lucide-sofa size-5 lg:size-6">
                     <path d="M20 9V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v3" />
                     <path d="M2 16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v1.5a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5V11a2 2 0 0 0-4 0z" />
                     <path d="M4 18v2" />
@@ -121,8 +117,7 @@ export function ImageGrid() {
                     strokeWidth={2}
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="lucide lucide-bed-double size-5 lg:size-6"
-                  >
+                    className="lucide lucide-bed-double size-5 lg:size-6">
                     <path d="M2 20v-8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v8" />
                     <path d="M4 10V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4" />
                     <path d="M12 4v6" />
@@ -146,8 +141,7 @@ export function ImageGrid() {
                     strokeWidth={2}
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="lucide lucide-car-front size-5 lg:size-6"
-                  >
+                    className="lucide lucide-car-front size-5 lg:size-6">
                     <path d="m21 8-2 2-1.5-3.7A2 2 0 0 0 15.646 5H8.4a2 2 0 0 0-1.903 1.257L5 10 3 8" />
                     <path d="M7 14h.01" />
                     <path d="M17 14h.01" />
@@ -170,8 +164,7 @@ export function ImageGrid() {
                     strokeWidth={2}
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="lucide lucide-bath size-5 lg:size-6"
-                  >
+                    className="lucide lucide-bath size-5 lg:size-6">
                     <path d="M10 4 8 6" />
                     <path d="M17 19v2" />
                     <path d="M2 12h20" />
@@ -193,8 +186,7 @@ export function ImageGrid() {
                     strokeWidth={2}
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="lucide lucide-toilet size-5 lg:size-6"
-                  >
+                    className="lucide lucide-toilet size-5 lg:size-6">
                     <path d="M7 12h13a1 1 0 0 1 1 1 5 5 0 0 1-5 5h-.598a.5.5 0 0 0-.424.765l1.544 2.47a.5.5 0 0 1-.424.765H5.402a.5.5 0 0 1-.424-.765L7 18" />
                     <path d="M8 18a5 5 0 0 1-5-5V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8" />
                   </svg>
@@ -215,17 +207,15 @@ export function ImageGrid() {
                     strokeWidth={2}
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="lucide lucide-clock"
-                  >
+                    className="lucide lucide-clock">
                     <circle cx={12} cy={12} r={10} />
                     <polyline points="12 6 12 12 16 14" />
                   </svg>
                   <span>
-                    Publicado há{" "}
+                    Publicado há{' '}
                     <time
                       dateTime="2025-01-09T17:48:39.691636+00:00"
-                      className="text-xs"
-                    >
+                      className="text-xs">
                       cerca de 8 horas
                     </time>
                   </span>
@@ -252,8 +242,7 @@ export function ImageGrid() {
                           aria-haspopup="dialog"
                           aria-expanded="false"
                           aria-controls="radix-:r2:"
-                          data-state="closed"
-                        >
+                          data-state="closed">
                           <div className="flex h-5 w-5 items-center justify-center overflow-hidden rounded-full bg-gray-30 text-center text-xs leading-none">
                             <div className="h-min w-min">?</div>
                           </div>
@@ -287,10 +276,10 @@ export function ImageGrid() {
                           </div>
                         </div>
                         <div className="text-right text-gray-80">
-                          Acumule{" "}
+                          Acumule{' '}
                           <strong className="text-black">
                             R$&nbsp;150 de Cashback
-                          </strong>{" "}
+                          </strong>{' '}
                           todos os meses
                         </div>
                       </div>
@@ -312,8 +301,7 @@ export function ImageGrid() {
                             strokeWidth={2}
                             strokeLinecap="round"
                             strokeLinejoin="round"
-                            className="lucide lucide-chevron-right"
-                          >
+                            className="lucide lucide-chevron-right">
                             <path d="m9 18 6-6-6-6" />
                           </svg>
                         </button>
@@ -349,8 +337,7 @@ export function ImageGrid() {
                       strokeWidth={2}
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="lucide lucide-dumbbell"
-                    >
+                      className="lucide lucide-dumbbell">
                       <path d="M14.4 14.4 9.6 9.6" />
                       <path d="M18.657 21.485a2 2 0 1 1-2.829-2.828l-1.767 1.768a2 2 0 1 1-2.829-2.829l6.364-6.364a2 2 0 1 1 2.829 2.829l-1.768 1.767a2 2 0 1 1 2.828 2.829z" />
                       <path d="m21.5 21.5-1.4-1.4" />
@@ -372,8 +359,7 @@ export function ImageGrid() {
                       strokeWidth={2}
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="lucide lucide-accessibility"
-                    >
+                      className="lucide lucide-accessibility">
                       <circle cx={16} cy={4} r={1} />
                       <path d="m18 19 1-7-6 1" />
                       <path d="m5 8 3-3 5.5 3-2.36 3.5" />
@@ -395,8 +381,7 @@ export function ImageGrid() {
                       strokeWidth={2}
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="lucide lucide-drafting-compass"
-                    >
+                      className="lucide lucide-drafting-compass">
                       <path d="m12.99 6.74 1.93 3.44" />
                       <path d="M19.136 12a10 10 0 0 1-14.271 0" />
                       <path d="m21 21-2.16-3.84" />
@@ -418,8 +403,7 @@ export function ImageGrid() {
                       strokeWidth={2}
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="lucide lucide-glass-water"
-                    >
+                      className="lucide lucide-glass-water">
                       <path d="M5.116 4.104A1 1 0 0 1 6.11 3h11.78a1 1 0 0 1 .994 1.105L17.19 20.21A2 2 0 0 1 15.2 22H8.8a2 2 0 0 1-2-1.79z" />
                       <path d="M6 12a5 5 0 0 1 6 0 5 5 0 0 0 6 0" />
                     </svg>
@@ -438,8 +422,7 @@ export function ImageGrid() {
                       strokeWidth={2}
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="lucide lucide-shield"
-                    >
+                      className="lucide lucide-shield">
                       <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
                     </svg>
                     <span className="relative text-sm lg:text-base leading-none">
@@ -457,8 +440,7 @@ export function ImageGrid() {
                       strokeWidth={2}
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="lucide lucide-beef"
-                    >
+                      className="lucide lucide-beef">
                       <circle cx="12.5" cy="8.5" r="2.5" />
                       <path d="M12.5 2a6.5 6.5 0 0 0-6.22 4.6c-1.1 3.13-.78 3.9-3.18 6.08A3 3 0 0 0 5 18c4 0 8.4-1.8 11.4-4.3A6.5 6.5 0 0 0 12.5 2Z" />
                       <path d="m18.5 6 2.19 4.5a6.48 6.48 0 0 1 .31 2 6.49 6.49 0 0 1-2.6 5.2C15.4 20.2 11 22 7 22a3 3 0 0 1-2.68-1.66L2.4 16.5" />
@@ -478,8 +460,7 @@ export function ImageGrid() {
                       strokeWidth={2}
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="lucide lucide-waves"
-                    >
+                      className="lucide lucide-waves">
                       <path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" />
                       <path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" />
                       <path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" />
@@ -499,8 +480,7 @@ export function ImageGrid() {
                       strokeWidth={2}
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="lucide lucide-bed"
-                    >
+                      className="lucide lucide-bed">
                       <path d="M2 4v16" />
                       <path d="M2 8h18a2 2 0 0 1 2 2v10" />
                       <path d="M2 17h20" />
@@ -526,8 +506,7 @@ export function ImageGrid() {
                       strokeWidth={2}
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="lucide lucide-car"
-                    >
+                      className="lucide lucide-car">
                       <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
                       <circle cx={7} cy={17} r={2} />
                       <path d="M9 17h6" />
@@ -548,8 +527,7 @@ export function ImageGrid() {
                       strokeWidth={2}
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="lucide lucide-party-popper"
-                    >
+                      className="lucide lucide-party-popper">
                       <path d="M5.8 11.3 2 22l10.7-3.79" />
                       <path d="M4 3h.01" />
                       <path d="M22 8h.01" />
@@ -575,8 +553,7 @@ export function ImageGrid() {
                       strokeWidth={2}
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="lucide lucide-volume-x"
-                    >
+                      className="lucide lucide-volume-x">
                       <path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z" />
                       <line x1={22} x2={16} y1={9} y2={15} />
                       <line x1={16} x2={22} y1={9} y2={15} />
@@ -596,8 +573,7 @@ export function ImageGrid() {
                       strokeWidth={2}
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="lucide lucide-map-pin"
-                    >
+                      className="lucide lucide-map-pin">
                       <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
                       <circle cx={12} cy={10} r={3} />
                     </svg>
@@ -616,8 +592,7 @@ export function ImageGrid() {
                       strokeWidth={2}
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="lucide lucide-sun"
-                    >
+                      className="lucide lucide-sun">
                       <circle cx={12} cy={12} r={4} />
                       <path d="M12 2v2" />
                       <path d="M12 20v2" />
@@ -702,8 +677,7 @@ export function ImageGrid() {
                     width={43}
                     height={32}
                     fill="none"
-                    viewBox="0 0 87 32"
-                  >
+                    viewBox="0 0 87 32">
                     <path
                       fill="currentColor"
                       d="M22.775 6.503c-.884-.494-1.974-.741-3.27-.742a7.049 7.049 0 0 0-1.473.163 6.577 6.577 0 0 0-1.5.52 6.19 6.19 0 0 0-1.357.89 4.786 4.786 0 0 0-.777.865 4.57 4.57 0 0 0-.843-1.161 4.092 4.092 0 0 0-1.65-.995 6.553 6.553 0 0 0-1.945-.282 7.586 7.586 0 0 0-1.297.12 5.454 5.454 0 0 0-1.326.416 5.261 5.261 0 0 0-1.222.786 4.116 4.116 0 0 0-.44.44L5.54 6.089H0v15.886h5.982V12.53a1.782 1.782 0 0 1 .147-.742c.099-.219.233-.42.398-.594.171-.181.383-.319.618-.4.26-.092.535-.138.81-.134.336-.01.667.073.958.24.267.159.478.397.604.682.138.297.207.663.207 1.099v9.295h5.981V12.53a1.783 1.783 0 0 1 .148-.742c.099-.219.233-.42.398-.594a1.56 1.56 0 0 1 .619-.4c.26-.092.534-.138.81-.134a1.84 1.84 0 0 1 .957.24c.267.159.477.397.604.682.137.297.206.663.206 1.099v9.295h5.982v-9.802c0-1.366-.221-2.529-.663-3.49-.442-.96-1.106-1.687-1.99-2.182ZM63.317 9.768c-.59-1.247-1.4-2.227-2.431-2.94-1.032-.713-2.215-1.068-3.551-1.067a6.449 6.449 0 0 0-1.914.282 5.819 5.819 0 0 0-1.65.802 5.702 5.702 0 0 0-.618.506V0H47.14v21.975h5.392l.198-1.475c.288.304.613.57.967.792a6.37 6.37 0 0 0 1.724.742 7.76 7.76 0 0 0 2.063.267c1.297 0 2.45-.351 3.462-1.054 1.012-.703 1.807-1.672 2.384-2.91.58-1.238.869-2.668.869-4.29 0-1.604-.293-3.03-.882-4.279Zm-5.29 6.09c-.206.494-.506.875-.898 1.143-.393.267-.874.4-1.444.4s-1.056-.133-1.459-.4a2.47 2.47 0 0 1-.913-1.144c-.206-.495-.31-1.098-.31-1.811 0-.713.104-1.322.31-1.826.206-.506.51-.887.913-1.144.403-.257.889-.385 1.459-.386.57 0 1.05.13 1.444.386.393.258.692.639.898 1.144.206.504.31 1.113.31 1.826 0 .713-.103 1.316-.31 1.811ZM36.167 5.76c-4.867 0-8.813 3.711-8.813 8.289 0 4.577 3.944 8.288 8.81 8.288 4.866 0 8.81-3.711 8.81-8.288 0-4.578-3.943-8.288-8.807-8.288Zm0 11.646c-1.972 0-3.568-1.503-3.568-3.355 0-1.853 1.598-3.356 3.568-3.356s3.567 1.503 3.567 3.355c0 1.853-1.596 3.356-3.567 3.356ZM84.74 26.264c-1.367-1.407-3.074-2.07-4.994-2.131-1.8-.057-3.602-.018-5.403-.024a3.144 3.144 0 0 1-.504-.037c-.599-.101-.931-.51-.842-1.025.043-.274.178-.525.384-.709a.499.499 0 0 1 .404-.104c.46.068.925.103 1.39.103 4.867 0 8.811-3.71 8.811-8.288a7.888 7.888 0 0 0-1.27-4.28.435.435 0 0 1 .264-.66c.117-.024.237-.036.357-.037.455-.006-2.116-.652-1.659-.652L81.257 8c-1.036.065 0 .42-1.263-.422-1.716.311.842 0-2.035-1.522a.136.136 0 0 1-.163.08 9.325 9.325 0 0 0-2.627-.376c-4.865 0-8.81 3.711-8.81 8.288 0 2.228.934 4.25 2.455 5.74a.117.117 0 0 1-.01.18 4.846 4.846 0 0 0-.345.283c-1.221 1.116-1.843 2.534-1.947 4.165-.137 2.087.594 3.788 2.382 4.949 1.06.688 2.247.999 3.492 1.024 1.82.035 3.64.011 5.459.021a3.43 3.43 0 0 1 .78.084c.784.187 1.26.7 1.454 1.506l6.647-1.879c-.332-1.48-.944-2.785-1.985-3.857ZM71.605 14.049c0-1.854 1.598-3.356 3.568-3.356s3.568 1.504 3.568 3.356c0 1.852-1.598 3.356-3.568 3.356s-3.568-1.502-3.568-3.356Z"
@@ -727,8 +701,7 @@ export function ImageGrid() {
                   </p>
                   <a
                     className="underline text-black font-medium"
-                    href="/criar-conta?redirect_url=/imovel/casa-para-alugar-com-3-quartos-no-petropolis-em-passo-fundo-002912"
-                  >
+                    href="/criar-conta?redirect_url=/imovel/casa-para-alugar-com-3-quartos-no-petropolis-em-passo-fundo-002912">
                     Desbloquear análise completa
                   </a>
                   <div className="mt-6 pt-8 pb-8">
@@ -789,8 +762,7 @@ export function ImageGrid() {
                     width={43}
                     height={32}
                     fill="none"
-                    viewBox="0 0 87 32"
-                  >
+                    viewBox="0 0 87 32">
                     <path
                       fill="currentColor"
                       d="M22.775 6.503c-.884-.494-1.974-.741-3.27-.742a7.049 7.049 0 0 0-1.473.163 6.577 6.577 0 0 0-1.5.52 6.19 6.19 0 0 0-1.357.89 4.786 4.786 0 0 0-.777.865 4.57 4.57 0 0 0-.843-1.161 4.092 4.092 0 0 0-1.65-.995 6.553 6.553 0 0 0-1.945-.282 7.586 7.586 0 0 0-1.297.12 5.454 5.454 0 0 0-1.326.416 5.261 5.261 0 0 0-1.222.786 4.116 4.116 0 0 0-.44.44L5.54 6.089H0v15.886h5.982V12.53a1.782 1.782 0 0 1 .147-.742c.099-.219.233-.42.398-.594.171-.181.383-.319.618-.4.26-.092.535-.138.81-.134.336-.01.667.073.958.24.267.159.478.397.604.682.138.297.207.663.207 1.099v9.295h5.981V12.53a1.783 1.783 0 0 1 .148-.742c.099-.219.233-.42.398-.594a1.56 1.56 0 0 1 .619-.4c.26-.092.534-.138.81-.134a1.84 1.84 0 0 1 .957.24c.267.159.477.397.604.682.137.297.206.663.206 1.099v9.295h5.982v-9.802c0-1.366-.221-2.529-.663-3.49-.442-.96-1.106-1.687-1.99-2.182ZM63.317 9.768c-.59-1.247-1.4-2.227-2.431-2.94-1.032-.713-2.215-1.068-3.551-1.067a6.449 6.449 0 0 0-1.914.282 5.819 5.819 0 0 0-1.65.802 5.702 5.702 0 0 0-.618.506V0H47.14v21.975h5.392l.198-1.475c.288.304.613.57.967.792a6.37 6.37 0 0 0 1.724.742 7.76 7.76 0 0 0 2.063.267c1.297 0 2.45-.351 3.462-1.054 1.012-.703 1.807-1.672 2.384-2.91.58-1.238.869-2.668.869-4.29 0-1.604-.293-3.03-.882-4.279Zm-5.29 6.09c-.206.494-.506.875-.898 1.143-.393.267-.874.4-1.444.4s-1.056-.133-1.459-.4a2.47 2.47 0 0 1-.913-1.144c-.206-.495-.31-1.098-.31-1.811 0-.713.104-1.322.31-1.826.206-.506.51-.887.913-1.144.403-.257.889-.385 1.459-.386.57 0 1.05.13 1.444.386.393.258.692.639.898 1.144.206.504.31 1.113.31 1.826 0 .713-.103 1.316-.31 1.811ZM36.167 5.76c-4.867 0-8.813 3.711-8.813 8.289 0 4.577 3.944 8.288 8.81 8.288 4.866 0 8.81-3.711 8.81-8.288 0-4.578-3.943-8.288-8.807-8.288Zm0 11.646c-1.972 0-3.568-1.503-3.568-3.355 0-1.853 1.598-3.356 3.568-3.356s3.567 1.503 3.567 3.355c0 1.853-1.596 3.356-3.567 3.356ZM84.74 26.264c-1.367-1.407-3.074-2.07-4.994-2.131-1.8-.057-3.602-.018-5.403-.024a3.144 3.144 0 0 1-.504-.037c-.599-.101-.931-.51-.842-1.025.043-.274.178-.525.384-.709a.499.499 0 0 1 .404-.104c.46.068.925.103 1.39.103 4.867 0 8.811-3.71 8.811-8.288a7.888 7.888 0 0 0-1.27-4.28.435.435 0 0 1 .264-.66c.117-.024.237-.036.357-.037.455-.006-2.116-.652-1.659-.652L81.257 8c-1.036.065 0 .42-1.263-.422-1.716.311.842 0-2.035-1.522a.136.136 0 0 1-.163.08 9.325 9.325 0 0 0-2.627-.376c-4.865 0-8.81 3.711-8.81 8.288 0 2.228.934 4.25 2.455 5.74a.117.117 0 0 1-.01.18 4.846 4.846 0 0 0-.345.283c-1.221 1.116-1.843 2.534-1.947 4.165-.137 2.087.594 3.788 2.382 4.949 1.06.688 2.247.999 3.492 1.024 1.82.035 3.64.011 5.459.021a3.43 3.43 0 0 1 .78.084c.784.187 1.26.7 1.454 1.506l6.647-1.879c-.332-1.48-.944-2.785-1.985-3.857ZM71.605 14.049c0-1.854 1.598-3.356 3.568-3.356s3.568 1.504 3.568 3.356c0 1.852-1.598 3.356-3.568 3.356s-3.568-1.502-3.568-3.356Z"
@@ -811,50 +783,42 @@ export function ImageGrid() {
                   <ul className="flex items-center scrollbar-hide overflow-x-auto overflow-y-hidden gap-2 sm:flex-row sm:flex-wrap sm:overflow-x-hidden">
                     <li
                       value="Academia"
-                      className="h-8 min-w-0 shrink-0 grow-0 cursor-default border-gray-60 text-gray-60 select-none bg-white border rounded-full px-3 text-sm leading-none outline-none flex items-center justify-center"
-                    >
+                      className="h-8 min-w-0 shrink-0 grow-0 cursor-default border-gray-60 text-gray-60 select-none bg-white border rounded-full px-3 text-sm leading-none outline-none flex items-center justify-center">
                       Academia (1)
                     </li>
                     <li
                       value="Conveniência"
-                      className="h-8 min-w-0 shrink-0 grow-0 cursor-default border-gray-60 text-gray-60 select-none bg-white border rounded-full px-3 text-sm leading-none outline-none flex items-center justify-center"
-                    >
+                      className="h-8 min-w-0 shrink-0 grow-0 cursor-default border-gray-60 text-gray-60 select-none bg-white border rounded-full px-3 text-sm leading-none outline-none flex items-center justify-center">
                       Conveniência (2)
                     </li>
                     <li
                       value="Correios"
-                      className="h-8 min-w-0 shrink-0 grow-0 cursor-default border-gray-60 text-gray-60 select-none bg-white border rounded-full px-3 text-sm leading-none outline-none flex items-center justify-center"
-                    >
+                      className="h-8 min-w-0 shrink-0 grow-0 cursor-default border-gray-60 text-gray-60 select-none bg-white border rounded-full px-3 text-sm leading-none outline-none flex items-center justify-center">
                       Correios (2)
                     </li>
                     <li
                       value="Escola"
-                      className="h-8 min-w-0 shrink-0 grow-0 cursor-default border-gray-60 text-gray-60 select-none bg-white border rounded-full px-3 text-sm leading-none outline-none flex items-center justify-center"
-                    >
+                      className="h-8 min-w-0 shrink-0 grow-0 cursor-default border-gray-60 text-gray-60 select-none bg-white border rounded-full px-3 text-sm leading-none outline-none flex items-center justify-center">
                       Escola (8)
                     </li>
                     <li
                       value="Outro"
-                      className="h-8 min-w-0 shrink-0 grow-0 cursor-default border-gray-60 text-gray-60 select-none bg-white border rounded-full px-3 text-sm leading-none outline-none flex items-center justify-center"
-                    >
+                      className="h-8 min-w-0 shrink-0 grow-0 cursor-default border-gray-60 text-gray-60 select-none bg-white border rounded-full px-3 text-sm leading-none outline-none flex items-center justify-center">
                       Outro (1)
                     </li>
                     <li
                       value="Posto de Gasolina"
-                      className="h-8 min-w-0 shrink-0 grow-0 cursor-default border-gray-60 text-gray-60 select-none bg-white border rounded-full px-3 text-sm leading-none outline-none flex items-center justify-center"
-                    >
+                      className="h-8 min-w-0 shrink-0 grow-0 cursor-default border-gray-60 text-gray-60 select-none bg-white border rounded-full px-3 text-sm leading-none outline-none flex items-center justify-center">
                       Posto de Gasolina (3)
                     </li>
                     <li
                       value="Restaurante"
-                      className="h-8 min-w-0 shrink-0 grow-0 cursor-default border-gray-60 text-gray-60 select-none bg-white border rounded-full px-3 text-sm leading-none outline-none flex items-center justify-center"
-                    >
+                      className="h-8 min-w-0 shrink-0 grow-0 cursor-default border-gray-60 text-gray-60 select-none bg-white border rounded-full px-3 text-sm leading-none outline-none flex items-center justify-center">
                       Restaurante (2)
                     </li>
                     <li
                       value="Universidade"
-                      className="h-8 min-w-0 shrink-0 grow-0 cursor-default border-gray-60 text-gray-60 select-none bg-white border rounded-full px-3 text-sm leading-none outline-none flex items-center justify-center"
-                    >
+                      className="h-8 min-w-0 shrink-0 grow-0 cursor-default border-gray-60 text-gray-60 select-none bg-white border rounded-full px-3 text-sm leading-none outline-none flex items-center justify-center">
                       Universidade (1)
                     </li>
                   </ul>
@@ -866,8 +830,7 @@ export function ImageGrid() {
                     </p>
                     <a
                       className="underline text-black font-medium"
-                      href="/criar-conta?redirect_url=/imovel/casa-para-alugar-com-3-quartos-no-petropolis-em-passo-fundo-002912"
-                    >
+                      href="/criar-conta?redirect_url=/imovel/casa-para-alugar-com-3-quartos-no-petropolis-em-passo-fundo-002912">
                       Desbloquear localidades próximas
                     </a>
                   </div>
@@ -880,8 +843,7 @@ export function ImageGrid() {
                 <div className="relative w-full">
                   <div
                     data-ntpc="GoogleMapsEmbed"
-                    style={{ height: 300 }}
-                  ></div>
+                    style={{ height: 300 }}></div>
                 </div>
               </div>
               <div className="-mx-2 mt-12 lg:mt-16 border-l-2 border-foreground bg-card px-8 py-6 md:mx-0 lg:p-8">
@@ -901,8 +863,7 @@ export function ImageGrid() {
                         strokeWidth={3}
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        className="lucide lucide-check text-white"
-                      >
+                        className="lucide lucide-check text-white">
                         <path d="M20 6 9 17l-5-5" />
                       </svg>
                     </div>
@@ -920,8 +881,7 @@ export function ImageGrid() {
                         strokeWidth={3}
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        className="lucide lucide-check text-white"
-                      >
+                        className="lucide lucide-check text-white">
                         <path d="M20 6 9 17l-5-5" />
                       </svg>
                     </div>
@@ -948,8 +908,7 @@ export function ImageGrid() {
                         strokeWidth={2}
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        className="lucide lucide-chevron-right"
-                      >
+                        className="lucide lucide-chevron-right">
                         <path d="m9 18 6-6-6-6" />
                       </svg>
                     </div>
@@ -968,8 +927,7 @@ export function ImageGrid() {
                     width={18}
                     height={18}
                     fill="currentColor"
-                    viewBox="0 0 18 18"
-                  >
+                    viewBox="0 0 18 18">
                     <g clipPath="url(#clip0_3354_4570)">
                       <path
                         fill="#2EA340"
@@ -990,8 +948,7 @@ export function ImageGrid() {
                     href="https://api.whatsapp.com/send/?phone=554933661750&text&type=phone_number&app_absent=0"
                     rel="noopener noreferrer nofollow"
                     target="_blank"
-                    className="underline"
-                  >
+                    className="underline">
                     Enviar mensagem
                   </a>
                 </div>
@@ -1012,26 +969,21 @@ function ImageGridHeader() {
           <div
             className="relative"
             role="region"
-            aria-roledescription="carousel"
-          >
+            aria-roledescription="carousel">
             <div className="overflow-hidden peer/carousel">
               <div
                 className="flex -ml-4"
-                style={{ transform: "translate3d(0px, 0px, 0px)" }}
-              >
+                style={{ transform: 'translate3d(0px, 0px, 0px)' }}>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-0"
                     aria-label="Foto 1"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
-                      fetchPriority="high"
                       loading="eager"
                       width={700}
                       height={700}
@@ -1039,20 +991,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyos3tb107k7xwn76s6i"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-1"
                     aria-label="Foto 2"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1062,20 +1012,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyo13qxc07ixt2oudrjz"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-2"
                     aria-label="Foto 3"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1085,20 +1033,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyom3tar07k7eqg19kkr"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-3"
                     aria-label="Foto 4"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1108,20 +1054,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyql3tc308ixmmqghmf4"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-4"
                     aria-label="Foto 5"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1131,20 +1075,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyod3tap07k7v0tbwdwm"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-5"
                     aria-label="Foto 6"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1154,20 +1096,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyoy3qxl07ixfx1x79uk"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-6"
                     aria-label="Foto 7"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1177,20 +1117,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyq43qy307ixkzos3vq3"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-7"
                     aria-label="Foto 8"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1200,20 +1138,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgypf3qxt07ixdxjjm2al"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-8"
                     aria-label="Foto 9"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1223,20 +1159,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyoi3qxf07ixk82qn4zo"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-9"
                     aria-label="Foto 10"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1246,20 +1180,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyoy3qxj07ix9ib0mhhe"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-10"
                     aria-label="Foto 11"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1269,20 +1201,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyox3tb307k7a43912sg"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-11"
                     aria-label="Foto 12"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1292,20 +1222,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgypx3tbp08ix4aks55rj"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-12"
                     aria-label="Foto 13"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1315,20 +1243,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyq63tbv08ixxwdmyfy2"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-13"
                     aria-label="Foto 14"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1338,20 +1264,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgypg3qxv07ixi3b8webc"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-14"
                     aria-label="Foto 15"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1361,20 +1285,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyqd3tc108ixsot5x0au"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-15"
                     aria-label="Foto 16"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1384,20 +1306,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyp03qxn07ixadn5tc79"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-16"
                     aria-label="Foto 17"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1407,20 +1327,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyp23qxr07ixtwuzre6w"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-17"
                     aria-label="Foto 18"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1430,20 +1348,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyom3qxh07ixr4e2a7rd"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-18"
                     aria-label="Foto 19"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1453,20 +1369,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyq23tbr08ixulw7v0z8"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-19"
                     aria-label="Foto 20"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1476,20 +1390,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyoq3taz07k7zl9neoip"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-20"
                     aria-label="Foto 21"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1499,20 +1411,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyp33tb707k7mx32mqf1"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-21"
                     aria-label="Foto 22"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1522,20 +1432,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgypt3tbl08ix0oo9esmt"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-22"
                     aria-label="Foto 23"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1545,20 +1453,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyom3tat07k7zqaqzssa"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-23"
                     aria-label="Foto 24"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1568,20 +1474,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyoo3tav07k7gzbo5k7o"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-24"
                     aria-label="Foto 25"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1591,20 +1495,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyo73tan07k72vht2q5w"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-25"
                     aria-label="Foto 26"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1614,20 +1516,18 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyq73tbz08ix5xkpnvox"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
                 <div
                   role="group"
                   aria-roledescription="slide"
-                  className="min-w-0 shrink-0 grow-0 basis-full"
-                >
+                  className="min-w-0 shrink-0 grow-0 basis-full">
                   <button
                     id="image-slide-26"
                     aria-label="Foto 27"
-                    className="relative flex aspect-square w-full shrink-0 snap-center"
-                  >
+                    className="relative flex aspect-square w-full shrink-0 snap-center">
                     <img
                       alt="Casa para alugar com 4 quartos"
                       loading="lazy"
@@ -1637,7 +1537,7 @@ function ImageGridHeader() {
                       data-nimg={1}
                       className="object-cover w-full h-full"
                       src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyq73tbx08ixvnpeyg3s"
-                      style={{ color: "transparent" }}
+                      style={{ color: 'transparent' }}
                     />
                   </button>
                 </div>
@@ -1647,8 +1547,7 @@ function ImageGridHeader() {
           </div>
           <div
             className="pointer-events-none flex items-center absolute bottom-4 w-full justify-center"
-            aria-hidden="true"
-          >
+            aria-hidden="true">
             <div className="flex items-center">
               <div
                 className="rounded-full transition-all duration-300 bg-white"
@@ -1664,11 +1563,11 @@ function ImageGridHeader() {
               />
               <div
                 className="rounded-full transition-all duration-300 bg-white/70 ml-1.5"
-                style={{ width: "4.2px", height: "4.2px" }}
+                style={{ width: '4.2px', height: '4.2px' }}
               />
               <div
                 className="rounded-full transition-all duration-300 bg-white/70 ml-1.5"
-                style={{ width: "2.4px", height: "2.4px" }}
+                style={{ width: '2.4px', height: '2.4px' }}
               />
               <div
                 className="rounded-full transition-all duration-300 bg-white/70"
@@ -1766,8 +1665,7 @@ function ImageGridHeader() {
         <div className="relative w-full grid-cols-4 grid-rows-2 gap-2 grid aspect-[2/1]">
           <button
             aria-label="Abrir galeria de fotos"
-            className="relative col-span-2 row-span-2 h-full overflow-hidden rounded-lg"
-          >
+            className="relative col-span-2 row-span-2 h-full overflow-hidden rounded-lg">
             <img
               alt="Casa para alugar com 4 quartos"
               loading="lazy"
@@ -1777,13 +1675,12 @@ function ImageGridHeader() {
               data-nimg={1}
               className="object-cover w-full h-full transition duration-300 hover:scale-105 rounded-lg"
               src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyos3tb107k7xwn76s6i"
-              style={{ color: "transparent" }}
+              style={{ color: 'transparent' }}
             />
           </button>
           <button
             aria-label="Abrir galeria de fotos"
-            className="relative col-span-1 row-span-1 h-full overflow-hidden rounded-lg"
-          >
+            className="relative col-span-1 row-span-1 h-full overflow-hidden rounded-lg">
             <img
               alt="Casa para alugar com 4 quartos"
               loading="lazy"
@@ -1793,13 +1690,12 @@ function ImageGridHeader() {
               data-nimg={1}
               className="object-cover w-full h-full rounded-lg transition duration-300 hover:scale-105"
               src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyo13qxc07ixt2oudrjz"
-              style={{ color: "transparent" }}
+              style={{ color: 'transparent' }}
             />
           </button>
           <button
             aria-label="Abrir galeria de fotos"
-            className="relative col-span-1 row-span-1 h-full overflow-hidden rounded-lg"
-          >
+            className="relative col-span-1 row-span-1 h-full overflow-hidden rounded-lg">
             <img
               alt="Casa para alugar com 4 quartos"
               loading="lazy"
@@ -1809,13 +1705,12 @@ function ImageGridHeader() {
               data-nimg={1}
               className="object-cover w-full h-full rounded-lg transition duration-300 hover:scale-105"
               src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyom3tar07k7eqg19kkr"
-              style={{ color: "transparent" }}
+              style={{ color: 'transparent' }}
             />
           </button>
           <button
             aria-label="Abrir galeria de fotos"
-            className="relative col-span-1 row-span-1 h-full overflow-hidden rounded-lg"
-          >
+            className="relative col-span-1 row-span-1 h-full overflow-hidden rounded-lg">
             <img
               alt="Casa para alugar com 4 quartos"
               loading="lazy"
@@ -1825,13 +1720,12 @@ function ImageGridHeader() {
               data-nimg={1}
               className="object-cover w-full h-full transition duration-300 hover:scale-105 rounded-lg"
               src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyql3tc308ixmmqghmf4"
-              style={{ color: "transparent" }}
+              style={{ color: 'transparent' }}
             />
           </button>
           <button
             aria-label="Abrir galeria de fotos"
-            className="relative col-span-1 row-span-1 h-full overflow-hidden rounded-lg"
-          >
+            className="relative col-span-1 row-span-1 h-full overflow-hidden rounded-lg">
             <img
               alt="Casa para alugar com 4 quartos"
               loading="lazy"
@@ -1841,7 +1735,7 @@ function ImageGridHeader() {
               data-nimg={1}
               className="object-cover w-full h-full transition duration-300 hover:scale-105 rounded-lg"
               src="https://us-east-1.graphassets.com/AVYIggJxFSBeFOUYVUsKcz/output=format:webp/cm5pmgyod3tap07k7v0tbwdwm"
-              style={{ color: "transparent" }}
+              style={{ color: 'transparent' }}
             />
           </button>
           <div className="absolute right-0 bottom-0 pr-6 pb-6">
@@ -1851,8 +1745,7 @@ function ImageGridHeader() {
                 width={20}
                 height={20}
                 fill="none"
-                className="mr-2"
-              >
+                className="mr-2">
                 <path
                   stroke="currentColor"
                   strokeLinecap="round"

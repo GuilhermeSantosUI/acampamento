@@ -1,12 +1,18 @@
+import { useAuth } from '@/app/context';
 import * as Views from '@/views';
 import { Navigate, Outlet, Route, Routes } from 'react-router-dom';
 
 export function Router() {
   return (
     <Routes>
-      <Route path="/" element={<Views.Login />} />
-      <Route path="/dashboard" element={<Views.Dashboard />} />
-      <Route path="/acampamento" element={<Views.Acampamento />} />
+      <Route element={<AuthGuard />}>
+        <Route path="/" element={<Views.Login />} />
+      </Route>
+
+      <Route element={<AuthGuard isPrivate />}>
+        <Route path="/dashboard" element={<Views.Acampamento />} />
+        <Route path="/acampamento" element={<Views.Dashboard />} />
+      </Route>
     </Routes>
   );
 }
@@ -16,14 +22,14 @@ type AuthGuardProps = {
 };
 
 export function AuthGuard({ isPrivate }: AuthGuardProps) {
-  const isAuth = false;
+  const { isAuth } = useAuth();
 
   if (!isAuth && isPrivate) {
-    return <Navigate to="/auth" />;
+    return <Navigate to="/" />;
   }
 
   if (isAuth && !isPrivate) {
-    return <Navigate to="/" replace />;
+    return <Navigate to="/dashboard" replace />;
   }
 
   return <Outlet />;
