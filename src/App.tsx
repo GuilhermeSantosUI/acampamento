@@ -1,10 +1,10 @@
-import { Router } from './router';
-import {MainContext} from "./app/context/main-context.tsx";
+import { MainContext } from '@/app/context';
+import { Router } from '@/router';
 
 export function App() {
-    return (
-        <MainContext>
-            <Router />
-        </MainContext>
-    );
+  return (
+    <MainContext>
+      <Router />
+    </MainContext>
+  );
 }
