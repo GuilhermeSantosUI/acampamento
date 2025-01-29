@@ -52,7 +52,7 @@ export function Login() {
           password: params.password,
         };
 
-        return await signIn(data.login, data.password);
+        return await signIn(data);
       } catch (error) {
         toast.error('CPF ou Senha inválidos!');
         throw error;
