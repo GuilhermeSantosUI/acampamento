@@ -5,11 +5,13 @@ import { Navigate, Outlet, Route, Routes } from 'react-router-dom';
 export function Router() {
   return (
     <Routes>
-      <Route path="/" element={<Views.Login />} />
+      <Route element={<AuthGuard />}>
+        <Route path="/" element={<Views.Login />} />
+      </Route>
 
       <Route element={<AuthGuard isPrivate />}>
-        <Route path="/dashboard" element={<Views.Dashboard />} />
-        <Route path="/acampamento" element={<Views.Acampamento />} />
+        <Route path="/dashboard" element={<Views.Acampamento />} />
+        <Route path="/acampamento" element={<Views.Dashboard />} />
       </Route>
     </Routes>
   );
@@ -20,13 +22,13 @@ type AuthGuardProps = {
 };
 
 export function AuthGuard({ isPrivate }: AuthGuardProps) {
-  const { signedIn } = useAuth();
+  const { isAuth } = useAuth();
 
-  if (!signedIn && isPrivate) {
+  if (!isAuth && isPrivate) {
     return <Navigate to="/" />;
   }
 
-  if (signedIn && !isPrivate) {
+  if (isAuth && !isPrivate) {
     return <Navigate to="/dashboard" replace />;
   }
 
